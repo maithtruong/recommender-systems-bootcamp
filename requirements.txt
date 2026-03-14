@@ -1,1 +1,10 @@
+numpy
 pandas
+notebook
+ipykernel
+requests
+gensim
+torch
+dotenv
+datasets
+transformers
