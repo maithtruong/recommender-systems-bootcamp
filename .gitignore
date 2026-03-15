@@ -1,2 +1,48 @@
+# ── Test files ────────────────────────────────────────────────────────────────
 labs/
 sample/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── Dataset files ─────────────────────────────────────────────────────────────
+project1/datasets/**/*.csv
+project1/datasets/**/*.tsv
+project1/datasets/**/*.json
+project1/datasets/**/*.zip
+project1/datasets/**/*.gz
+
+# ── Processed data & checkpoints (large binary files) ────────────────────────
+project1/datasets/*.pt
+project1/datasets/**/*.pt
+checkpoints/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Logs & misc ───────────────────────────────────────────────────────────────
+*.log
+*.egg-info/
+dist/
+build/

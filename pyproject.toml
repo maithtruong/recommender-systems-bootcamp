@@ -1,9 +1,18 @@
 [project]
-name = "recommender-systems-bootcamp"
+name = "recsys"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11.8"
 dependencies = [
+    "faiss-cpu>=1.13.2",
+    "fastapi>=0.135.1",
+    "gensim>=4.4.0",
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "notebook>=7.5.5",
+    "numpy>=2.4.3",
     "pandas>=3.0.1",
+    "torch>=2.10.0",
+    "uvicorn>=0.41.0",
 ]

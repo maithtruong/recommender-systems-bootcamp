@@ -1,1 +1,10 @@
+torch
+gensim
+faiss-cpu
+fastapi
+uvicorn
 pandas
+numpy
+jupyter
+notebook
+ipykernel
