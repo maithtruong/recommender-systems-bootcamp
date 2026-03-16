@@ -425,3 +425,18 @@ print(r.json())
 │                          API Response                               │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+---
+## Next Steps
+
+There are a few things I would like to add to this project, but due to timeline limitations, I could not adopt them. Here are the future changes I would consider:
+
+**1. Scaling to a larger dataset**
+The current implementation uses the MovieLens Small dataset for faster experimentation. Training on CPU already takes approximately 40+ minutes, so scaling to a larger dataset such as MovieLens 32M would provide a more realistic benchmark and better reflect production-scale recommendation workloads.
+
+**2. Improving the evaluation protocol**
+The current preprocessing pipeline could be improved to better align with standard practices in sequential recommendation research. In particular:
++ implement leave-one-out evaluation
++ properly split interactions into train / validation / test sets
+
+**3. Building a user interface**
+The system currently exposes recommendations through a REST API. A lightweight web interface could be added to allow users to interactively test recommendations and explore model outputs.
